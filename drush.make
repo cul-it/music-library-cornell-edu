@@ -98,5 +98,5 @@ projects[music_library][type] = "theme"
 ;Libraries
 libraries[tinymce][directory_name] = "tinymce"
 libraries[tinymce][download][type] = "get"
-libraries[tinymce][download][url] = "http://sourceforge.net/projects/tinymce/files/latest/download"
+libraries[tinymce][download][url] = "http://download.moxiecode.com/tinymce/tinymce_4.1.6.zip"
 
