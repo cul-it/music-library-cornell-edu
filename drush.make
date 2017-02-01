@@ -43,87 +43,60 @@ projects[webform][version] = "3.23"
 projects[wysiwyg][version] = "2.4"
 projects[xmlsitemap][version] = "2.1"
 
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
+projects[ares][directory_name] = "ares"
+projects[ares][download][branch] = "master"
+projects[ares][download][type] = "git"
+projects[ares][download][url] = "https://github.com/cul-it/ares-module.git"
 projects[ares][type] = "module"
-projects[ares][download][type] = "svn"
-projects[ares][download][url] =
-        "https://svn.library.cornell.edu/ares/trunk/module"
 
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[cu_template][download][type] = "svn"
-projects[cu_template][download][url] =
-        "https://svn.library.cornell.edu/cu_template/trunk/module"
-
+projects[cu_template][directory_name] = "cu_template"
+projects[cu_template][download][branch] = "master"
+projects[cu_template][download][type] = "git"
+projects[cu_template][download][url] = "https://github.com/cul-it/identity-banner-module.git"
 projects[cu_template][type] = "module"
-projects[cu_template][subdir] = "custom"
 
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
+projects[cul_common][directory_name] = "cul_common"
+projects[cul_common][download][branch] = "feature/drupal6_original"
+projects[cul_common][download][type] = "git"
+projects[cul_common][download][url] = "https://github.com/cul-it/cul-common.git"
 projects[cul_common][type] = "module"
-projects[cul_common][download][type] = "svn"
-projects[cul_common][download][url] =
-        "https://svn.library.cornell.edu/cul_common/trunk/module"
-projects[cul_common][revision] = "HEAD"
 
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
+projects[cul_login][directory_name] = "cul_login"
+projects[cul_login][download][branch] = "Drupal_6"
+projects[cul_login][download][type] = "git"
+projects[cul_login][download][url] = "https://github.com/cul-it/cul-login.git"
 projects[cul_login][type] = "module"
-projects[cul_login][download][type] = "svn"
-projects[cul_login][download][url] =
-        "https://svn.library.cornell.edu/cul_login/trunk/module"
 
-projects[cul_login][revision] = "HEAD"
-projects[cul_login][subdir] = "custom"
-
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[goosacul][download][type] = "svn"
-projects[goosacul][download][url] = "https://svn.library.cornell.edu/goosacul/trunk/module"
-projects[goosacul][type] = "module"
+projects[goosacul][directory_name] = "goosacul"
+projects[goosacul][download][branch] = "master"
+projects[goosacul][download][type] = "git"
+projects[goosacul][download][url] = "https://github.com/cul-it/goosacul-module.git"
 projects[goosacul][subdir] = "custom"
-projects[goosacul][revision] = "HEAD"
+projects[goosacul][type] = "module"
 
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
+projects[journal_list][directory_name] = "journal_list"
+projects[journal_list][download][branch] = "master"
+projects[journal_list][download][type] = "git"
+projects[journal_list][download][url] = "https://github.com/cul-it/journal-list-module.git"
+projects[journal_list][subdir] = "custom"
 projects[journal_list][type] = "module"
-projects[journal_list][download][type] = "svn"
-projects[journal_list][download][url] =
-        "https://svn.library.cornell.edu/journal_list/trunk/module"
 
-projects[journal_list][revision] = "HEAD"
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
+projects[staff_directory][directory_name] = "staff_directory"
+projects[staff_directory][download][branch] = "master"
+projects[staff_directory][download][type] = "git"
+projects[staff_directory][download][url] = "https://github.com/cul-it/staff-directory-module.git"
+projects[staff_directory][subdir] = "custom"
 projects[staff_directory][type] = "module"
-projects[staff_directory][download][type] = "svn"
-projects[staff_directory][download][url] =
-        "https://svn.library.cornell.edu/staff_directory/trunk/module"
-projects[staff_directory][revision] = "HEAD"
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[views_menu_sort][type] = "module"
-projects[views_menu_sort][download][type] = "svn"
-projects[views_menu_sort][download][url] =
-        "https://svn.library.cornell.edu/views_menu_sort/trunk/module"
-
 
 ; Themes
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[music_library][download][type] = "svn"
-projects[music_library][download][url] =
- "https://svn.library.cornell.edu/music_library/trunk/theme"
+projects[music_library][directory_name] = "music_library"
+projects[music_library][download][branch] = "master"
+projects[music_library][download][type] = "git"
+projects[music_library][download][url] = "https://github.com/cul-it/music-library-cornell-edu-theme.git"
 projects[music_library][type] = "theme"
 
 ;Libraries
-libraries[tinymce][download][type] = "svn"
-libraries[tinymce][download][url] = "https://svn.library.cornell.edu/tinymce-clone/trunk"
 libraries[tinymce][directory_name] = "tinymce"
+libraries[tinymce][download][type] = "get"
+libraries[tinymce][download][url] = "http://sourceforge.net/projects/tinymce/files/latest/download"
 
