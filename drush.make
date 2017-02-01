@@ -44,20 +44,16 @@ projects[wysiwyg][version] = "2.4"
 projects[xmlsitemap][version] = "2.1"
 
 projects[ares][directory_name] = "ares"
-projects[ares][download][branch] = "drupal7"
+projects[ares][download][branch] = "master"
 projects[ares][download][type] = "git"
 projects[ares][download][url] = "https://github.com/cul-it/ares-module.git"
 projects[ares][type] = "module"
 
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[cu_template][download][type] = "svn"
-projects[cu_template][download][url] =
-        "https://svn.library.cornell.edu/cu_template/trunk/module"
-
+projects[cu_template][directory_name] = "cu_template"
+projects[cu_template][download][branch] = "master"
+projects[cu_template][download][type] = "git"
+projects[cu_template][download][url] = "https://github.com/cul-it/identity-banner-module.git"
 projects[cu_template][type] = "module"
-projects[cu_template][subdir] = "custom"
 
 projects[cul_common][directory_name] = "cul_common"
 projects[cul_common][download][branch] = "feature/drupal6_original"
