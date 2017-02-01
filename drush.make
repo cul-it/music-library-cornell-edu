@@ -61,16 +61,11 @@ projects[cul_common][download][type] = "git"
 projects[cul_common][download][url] = "https://github.com/cul-it/cul-common.git"
 projects[cul_common][type] = "module"
 
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
+projects[cul_login][directory_name] = "cul_login"
+projects[cul_login][download][branch] = "Drupal_6"
+projects[cul_login][download][type] = "git"
+projects[cul_login][download][url] = "https://github.com/cul-it/cul-login.git"
 projects[cul_login][type] = "module"
-projects[cul_login][download][type] = "svn"
-projects[cul_login][download][url] =
-        "https://svn.library.cornell.edu/cul_login/trunk/module"
-
-projects[cul_login][revision] = "HEAD"
-projects[cul_login][subdir] = "custom"
-
 
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
