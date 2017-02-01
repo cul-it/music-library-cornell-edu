@@ -60,14 +60,11 @@ projects[cu_template][download][url] =
 projects[cu_template][type] = "module"
 projects[cu_template][subdir] = "custom"
 
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
+projects[cul_common][directory_name] = "cul_common"
+projects[cul_common][download][branch] = "feature/drupal6_original"
+projects[cul_common][download][type] = "git"
+projects[cul_common][download][url] = "https://github.com/cul-it/cul-common.git"
 projects[cul_common][type] = "module"
-projects[cul_common][download][type] = "svn"
-projects[cul_common][download][url] =
-        "https://svn.library.cornell.edu/cul_common/trunk/module"
-projects[cul_common][revision] = "HEAD"
-
 
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
