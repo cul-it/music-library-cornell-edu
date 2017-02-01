@@ -43,12 +43,11 @@ projects[webform][version] = "3.23"
 projects[wysiwyg][version] = "2.4"
 projects[xmlsitemap][version] = "2.1"
 
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
+projects[ares][directory_name] = "ares"
+projects[ares][download][branch] = "drupal7"
+projects[ares][download][type] = "git"
+projects[ares][download][url] = "https://github.com/cul-it/ares-module.git"
 projects[ares][type] = "module"
-projects[ares][download][type] = "svn"
-projects[ares][download][url] =
-        "https://svn.library.cornell.edu/ares/trunk/module"
 
 
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
