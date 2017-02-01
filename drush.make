@@ -96,7 +96,7 @@ projects[music_library][download][url] = "https://github.com/cul-it/music-librar
 projects[music_library][type] = "theme"
 
 ;Libraries
-libraries[tinymce][download][type] = "svn"
-libraries[tinymce][download][url] = "https://svn.library.cornell.edu/tinymce-clone/trunk"
 libraries[tinymce][directory_name] = "tinymce"
+libraries[tinymce][download][type] = "get"
+libraries[tinymce][download][url] = "http://sourceforge.net/projects/tinymce/files/latest/download"
 
