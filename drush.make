@@ -87,13 +87,6 @@ projects[staff_directory][download][type] = "git"
 projects[staff_directory][download][url] = "https://github.com/cul-it/staff-directory-module.git"
 projects[staff_directory][subdir] = "custom"
 projects[staff_directory][type] = "module"
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[views_menu_sort][type] = "module"
-projects[views_menu_sort][download][type] = "svn"
-projects[views_menu_sort][download][url] =
-        "https://svn.library.cornell.edu/views_menu_sort/trunk/module"
-
 
 ; Themes
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
