@@ -89,11 +89,10 @@ projects[staff_directory][subdir] = "custom"
 projects[staff_directory][type] = "module"
 
 ; Themes
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[music_library][download][type] = "svn"
-projects[music_library][download][url] =
- "https://svn.library.cornell.edu/music_library/trunk/theme"
+projects[music_library][directory_name] = "music_library"
+projects[music_library][download][branch] = "master"
+projects[music_library][download][type] = "git"
+projects[music_library][download][url] = "https://github.com/cul-it/music-library-cornell-edu-theme.git"
 projects[music_library][type] = "theme"
 
 ;Libraries
