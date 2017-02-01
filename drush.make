@@ -74,14 +74,13 @@ projects[goosacul][download][url] = "https://github.com/cul-it/goosacul-module.g
 projects[goosacul][subdir] = "custom"
 projects[goosacul][type] = "module"
 
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
+projects[journal_list][directory_name] = "journal_list"
+projects[journal_list][download][branch] = "master"
+projects[journal_list][download][type] = "git"
+projects[journal_list][download][url] = "https://github.com/cul-it/journal-list-module.git"
+projects[journal_list][subdir] = "custom"
 projects[journal_list][type] = "module"
-projects[journal_list][download][type] = "svn"
-projects[journal_list][download][url] =
-        "https://svn.library.cornell.edu/journal_list/trunk/module"
 
-projects[journal_list][revision] = "HEAD"
 
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
