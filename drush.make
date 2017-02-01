@@ -81,15 +81,12 @@ projects[journal_list][download][url] = "https://github.com/cul-it/journal-list-
 projects[journal_list][subdir] = "custom"
 projects[journal_list][type] = "module"
 
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
+projects[staff_directory][directory_name] = "staff_directory"
+projects[staff_directory][download][branch] = "master"
+projects[staff_directory][download][type] = "git"
+projects[staff_directory][download][url] = "https://github.com/cul-it/staff-directory-module.git"
+projects[staff_directory][subdir] = "custom"
 projects[staff_directory][type] = "module"
-projects[staff_directory][download][type] = "svn"
-projects[staff_directory][download][url] =
-        "https://svn.library.cornell.edu/staff_directory/trunk/module"
-projects[staff_directory][revision] = "HEAD"
-
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
 projects[views_menu_sort][type] = "module"
